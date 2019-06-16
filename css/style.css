@@ -18,7 +18,40 @@
 
 /* Styling of the Home Section made by Firas*/
 
+.home {
+    margin: 2% 0 0 2%;
+}
 
+.home h4 {
+    display: inline-block;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 4px;
+    padding: 9px;
+}
+
+.home h1 {
+    color: rgb(68, 68, 68);
+    margin-top: 1%;
+    font-weight: 900;
+    font-size: 400%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.home .main {
+    color: rgb(178, 178, 178);
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.home h3 span {
+    color: orange;
+}
+
+.home .sub {
+    color: rgb(108, 108, 108)
+}
 
 /* End of the Home Section*/
 
