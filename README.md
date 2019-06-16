@@ -14,7 +14,7 @@ This is a team project exercise for the Re:Coded bootcamp in Gaziantep, done by 
 
 * [Nasser's Github] www.github.com/abdelnasser31                 - [Email]   : abdelnasser.kh10@gmail.com
 
-* [Ferass's Github] www.github.com/                      
+* [Feras's Github] www.github.com/fmb97                         - [Email]   : jackxxii22@gmail.com
 
 * [Taha's Github] www.github.com/                          
 
