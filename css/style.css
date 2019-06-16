@@ -19,14 +19,14 @@
 /* Styling of the Home Section made by Firas*/
 
 .home {
-    margin: 2% 0 0 2%;
+    margin: 2% 0 0 10%;
 }
 
 .home h4 {
     display: inline-block;
     color: orange;
     border: 1px solid orange;
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 9px;
 }
 
@@ -36,7 +36,7 @@
     font-weight: 900;
     font-size: 400%;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .home .main {
@@ -45,14 +45,35 @@
     margin-bottom: 1%;
 }
 
-.home h3 span {
+.home .main span {
     color: orange;
 }
 
 .home .sub {
-    color: rgb(108, 108, 108)
+    color: rgb(108, 108, 108);
+    margin-bottom: 4%;
 }
 
+.home .get-started {
+    padding: 10px 20px;
+    background: orange;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border: 1px rgba(255, 255, 255, 0) solid;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+
+.home .contact {
+    padding: 10px 20px;
+    background: white;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 3px;
+}
 /* End of the Home Section*/
 
 /* ********************************************************************************************** */
