@@ -42,10 +42,36 @@
 
 /* Styling of careers Section made by Halil  */
 .careers {
-    background-image: url("images/img11.jpg");
+    background-image: url("../images/img11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 400px;
+}
+
+.careers .container p{
+    width: 300px;
+    list-style: height 22px;;
+}
+
+.careers .container {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    text-align:left;
+    padding: 20px 15px 20px 40px;
+}
+
+.careers .container h3 span {
+    border: 1px solid  #fe9602;
+    color: #fe9602;
+    padding: 5px;
+
+}
+
+.careers .container h1 {
+    padding-top:20px;
+    padding-bottom: 40px;
 }
 
 
