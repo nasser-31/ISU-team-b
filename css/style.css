@@ -22,8 +22,8 @@
     margin: 0 auto;
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 85em;
+    background-position-y: -190px;
 }
 
 .home-top h4 {
@@ -70,7 +70,7 @@
     color: white;
     border: 1px rgba(288, 288, 288, 0) solid;
     border-radius: 3px;
-    margin: 2% 1% 0 10%;
+    margin: 2% 1% 25% 10%;
 }
 
 .home-top .contact {
@@ -83,8 +83,9 @@
     border-radius: 3px;
 }
 
-.home-companies img {
-    margin: 26% 0 10% 7%;
+.home-companies {
+    background: white;
+    margin: 13% 0 0 0;
 }
 
 /* End of the Home Section*/
