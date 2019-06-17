@@ -41,6 +41,12 @@
 
 
 /* Styling of careers Section made by Halil  */
+.careers {
+    background-image: url("images/img11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
 
 
 
