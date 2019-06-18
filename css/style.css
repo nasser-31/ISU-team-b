@@ -22,7 +22,12 @@
     margin: 0 auto;
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-position-y: -120px;
+=======
+    background-size: 85em;
+    background-position-y: -190px;
+>>>>>>> 037a49de75db3c0cbab12dc34406852236931a75
 }
 
 .home-top h4 {
@@ -68,7 +73,7 @@
     color: white;
     border: 1px rgba(288, 288, 288, 0) solid;
     border-radius: 3px;
-    margin: 2% 1% 0 10%;
+    margin: 2% 1% 25% 10%;
 }
 
 .home-top .contact {
@@ -82,9 +87,14 @@
 }
 
 .home-companies {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-around;
     margin: 13% 0 5% 5%;
+=======
+    background: white;
+    margin: 13% 0 0 0;
+>>>>>>> 037a49de75db3c0cbab12dc34406852236931a75
 }
 /* End of the Home Section*/
 
