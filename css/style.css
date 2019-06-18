@@ -89,12 +89,7 @@
 
 .contact-us {
     padding: 20%;
-}
-
-.contact-us .free-trail {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
     text-align: center;
 }
@@ -102,27 +97,30 @@
 .contact-us .free-trail .sub {
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 10px;
+
 }
 
 .contact-us .free-trail .main {
     text-transform: capitalize;
     font-size: 2em;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .contact-us .free-trail .main span {
     color: orange;
 }
 
-.contact-us .free-trail a {
+.contact-us .contact-button {
+    text-transform: capitalize;
     font-weight: bold;
     text-decoration: none;
     color: white;
     background: orange;
-    padding: 10px;
+    padding: 0.7em 1.7em;
     border: orange 1px solid;
     border-radius: 3px;
-    margin-top: 3%;
 }
 
 /* End of latest-articles Section */
