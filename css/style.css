@@ -22,8 +22,7 @@
     margin: 0 auto;
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 85em;
+    background-position-y: -120px;
 }
 
 .home-top h4 {
@@ -48,8 +47,7 @@
 .home-top .main {
     color: rgb(178, 178, 178);
     font-weight: 900;
-    margin-bottom: 1%;
-    margin: 2% 0 4% 9.7%;    
+    margin: 2% 0 0 10%;    
 }
 
 .home-top .main span {
@@ -59,7 +57,7 @@
 .home-top .sub {
     width: 39%;
     color: rgb(108, 108, 108);
-    margin: 2% 0 4% 9.7%;    
+    margin: 1% 0 4% 10%;    
 }
 
 .home-top .get-started {
@@ -83,10 +81,11 @@
     border-radius: 3px;
 }
 
-.home-companies img {
-    margin: 26% 0 10% 7%;
+.home-companies {
+    display: flex;
+    justify-content: space-around;
+    margin: 13% 0 5% 5%;
 }
-
 /* End of the Home Section*/
 
 /* ********************************************************************************************** */
