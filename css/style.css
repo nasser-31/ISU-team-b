@@ -87,7 +87,43 @@
 /* ********************************************************************************************** */
 /* Styling of Contact Section made by Feras */
 
+.contact-us {
+    padding: 20%;
+}
 
+.contact-us .free-trail {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-us .free-trail .sub {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-us .free-trail .main {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contact-us .free-trail .main span {
+    color: orange;
+}
+
+.contact-us .free-trail a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px;
+    border: orange 1px solid;
+    border-radius: 3px;
+    margin-top: 3%;
+}
 
 /* End of latest-articles Section */
 
