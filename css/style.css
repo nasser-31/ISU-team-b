@@ -87,14 +87,9 @@
 }
 
 .home-companies {
-<<<<<<< HEAD
     display: flex;
     justify-content: space-around;
     margin: 13% 0 5% 5%;
-=======
-    background: white;
-    margin: 13% 0 0 0;
->>>>>>> 037a49de75db3c0cbab12dc34406852236931a75
 }
 /* End of the Home Section*/
 
