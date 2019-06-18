@@ -92,6 +92,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    background: url(../images/contact-us-backround1.png);
+    background-repeat: no-repeat;
 }
 
 .contact-us .free-trail .sub {
