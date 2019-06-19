@@ -74,6 +74,20 @@
     padding-bottom: 40px;
 }
 
+.careers .careers-form {
+
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+
+
 
 
 /* End of Careers Section */
