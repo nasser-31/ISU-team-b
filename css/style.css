@@ -35,6 +35,9 @@
 .pricing-table {
     display: inline-block;
     margin-top: 5%;
+    background-image: url("../images/priceTable.png");
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 .pricing-info {
