@@ -32,7 +32,238 @@
 /* ********************************************************************************************** */
 
 /* Styling of pricing-table Section made by Taha */
+.pricing-table {
+    display: inline-block;
+    margin-top: 5%;
+    background-image: url("../images/priceTable.png");
+    padding-top: 30px;
+    padding-bottom: 30px;
 
+}
+.pricing-info {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0px;
+    margin-left: 15%;
+}
+
+.pricing-info h4 {
+    border: #fe9602 solid 1px;
+    color: #fe9602;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 10px;
+}
+.pricing-info h2  {
+    display: inline-block;
+    margin: 15px;
+
+}
+.pricing-info p {
+    display: inline-block;
+    margin: 15px;
+}
+ .pricing-info h3 {
+    margin: 15px;
+    padding: 7px;   
+}
+.pricing-info .highlightme {
+        background-color: #fe9602;
+}
+.pricing-info .tab {
+    margin-left: 10px;
+}
+.pricing-info .arrow {
+    display: block;
+    content: "\2938";
+    font-size: 15px;
+    color: #fe9602;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fe9602;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 5px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 2px;
+  }
+  
+  input:checked + .slider {
+    background-color: #fe9602;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .pricing-box1 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    border: #444444 solid 1px;
+    background: white;
+    
+  }
+  
+  .price1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .price1 .header1 {
+    
+    color: black;
+    font-size: 15px;
+    text-align: left;
+
+  }
+  .price1 .font-size {
+        font-size: 50px;
+
+  }
+  
+  .header1 img {
+         width: 70px;
+         height: 75px;
+  }
+  .price1 li {
+    padding: 7px;
+    text-align: left;
+  }
+    .price1 li i {
+      color: #fe9602;
+      font-size: 10px;
+  }
+  
+  .price1 .position {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  
+  .price1 .button {
+    background-color: #fe9602;
+    border: blanchedalmond solid 1px;
+    color: white;
+    padding: 7px 80px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .pricing-box1 {
+      width: 100%;
+    }
+  }
+
+.pricing-box2 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    border: #444444 solid 1px;
+    background: white;
+    margin-right: 10%;
+    margin-top: 18px;
+  }
+  
+  .price2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price2 .header2 {
+    
+    color: black;
+    font-size: 15px;
+    text-align: left;
+
+  }
+  .price2 .font-size {
+        font-size:50px;
+    }
+
+  .header2 img {
+    width: 70px;
+    height:75px;
+  }
+  
+  .price2 li {
+    
+    padding: 7px;
+    text-align: left;
+  }
+  .price2 li i {
+    color: #fe9602;
+    font-size: 10px;
+  }
+  .price2 .position {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .price2 .button {
+    background-color: #444444;
+    border: blanchedalmond solid 1px;
+    color: white;
+    padding: 7px 80px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .pricing-box2 {
+      width: 100%;
+    }
+  }
 
 
 /* End of pricing-table Section */
@@ -64,7 +295,49 @@
 /* ********************************************************************************************** */
 
 /* Styling of services Section made by Taha */
+.services {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15%;  
+    margin-bottom: 10%;
+    margin-right: 10%;
 
+}
+.planning {
+    display: inline-block;
+    width: 25%;
+    margin-left: 15%;
+    
+    
+}
+.planning img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+.optimizing{
+    display: inline-block;
+    width: 25%;
+    
+    
+}
+.optimizing img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+.result{
+    display: inline-block;
+    width: 25%;
+}
+.result img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
 
 
 /* End of services Section */
