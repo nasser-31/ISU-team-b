@@ -64,7 +64,49 @@
 /* ********************************************************************************************** */
 
 /* Styling of services Section made by Taha */
+.services {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15%;  
+    margin-bottom: 10%;
+    margin-right: 10%;
 
+}
+.planning {
+    display: inline-block;
+    width: 25%;
+    margin-left: 15%;
+    
+    
+}
+.planning img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+.optimizing{
+    display: inline-block;
+    width: 25%;
+    
+    
+}
+.optimizing img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+.result{
+    display: inline-block;
+    width: 25%;
+}
+.result img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
 
 
 /* End of services Section */
