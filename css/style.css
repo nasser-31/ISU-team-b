@@ -17,13 +17,13 @@
 /* ********************************************************************************************** */
 
 /* Styling of the Home Section made by Firas*/
-
-.home .home-start {
+.home {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 7vh;
     background-image: url(../images/img1.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .home .home-start h4 {
@@ -36,7 +36,7 @@
     margin-bottom: 3vh;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .home .home-start h4 {
         font-size: 12px;
         padding: 5px;
@@ -52,10 +52,10 @@
     margin-bottom: 4vh;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .home .home-start h1 {
         width: 100%;
-        font-size: 30px;
+
     }
 }
 
@@ -66,7 +66,7 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .home .home-start .main {
         color: black;
     }
@@ -92,7 +92,6 @@
     background: orange;
     border: 1px orange solid;
     border-radius: 3px;
-    margin-bottom: 3vh;
     margin-right: 15px;
 }
 
@@ -105,14 +104,15 @@
     color: black;
     border: 1px rgb(204, 204, 204) solid;
     border-radius: 3px;
-    margin-bottom: 12vh;
+    margin-bottom: 20vw;
 }
 
 .home .home-companies {
-    margin-left: 4.3vw;
-    margin-right: 5vw;
     display: flex;
     justify-content: space-between;
+    background: white;
+    padding: 20px;
+    overflow: auto;
 }
 
 .home .home-companies a img {
