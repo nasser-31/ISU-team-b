@@ -113,14 +113,49 @@ input[type=text] {
 /* ********************************************************************************************** */
 /* Styling of completed-projects Section made by Halil  */
 
+.completed-projects h3 {
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 15px;
+    text-align: center;
+}
 
+div.completed-pro-photos {
+    border:1px solid white;
+}
+
+div.completed-photos:hover {
+    border: 2px solid rgb(63, 27, 34);
+    box-shadow: 0 0 30px rgb(134, 154, 182)
+}
+
+div.completed-pro-photos img {
+    width:100%;
+    height: auto;
+}
+
+div.completed-pro-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.completed-projects {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.completed-pro-responsive {
+    width:15%;
+    margin: 6.66%;
+    float: left;
+}
 
 /* End of completed-projects Section */
 
 /* ********************************************************************************************** */
 
 /* Styling of completed-projects Section made by Halil  */
-
 
 
 /* End of completed-projects Section */
