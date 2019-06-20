@@ -16,14 +16,14 @@
 
 /* ********************************************************************************************** */
 
-/* Styling of the Home Section made by Firas*/
-.home {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 7vh;
+/* Styling of the Home Section made by Feras*/
+.home .home-start {
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
     background-image: url(../images/img1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .home .home-start h4 {
@@ -42,7 +42,6 @@
         padding: 5px;
     }
 }
-
 
 .home .home-start h1 {
     font-size: 4.5vw;
@@ -80,6 +79,13 @@
     color: gray;
     font-size: 20px;
     margin-bottom: 6vh;
+    width: 45%;
+}
+
+@media screen and (max-width: 750px) {
+    .home .home-start .sub {
+        width: 100%;
+    }
 }
 
 .home .home-start .get-started {
@@ -111,12 +117,17 @@
     display: flex;
     justify-content: space-between;
     background: white;
-    padding: 20px;
-    overflow: auto;
+    padding: 30px;
+    border: 1px rgb(201, 201, 201) solid;
+    overflow: hidden;
 }
 
 .home .home-companies a img {
     margin-right: 60px;
+}
+
+.home hr {
+    color: rgb(207, 207, 207);
 }
 /* End of the Home Section*/
 
