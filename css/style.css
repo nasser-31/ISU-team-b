@@ -86,65 +86,141 @@
 
 /* ********************************************************************************************** */
 /* Styling of Contact Section made by Feras */
-.contact-us .free-trail {
-    background-image: url(../images/contact-us-backround1.png);
-    background-size: 100%;
-    padding-top: 35vh;
-    padding-bottom: 35vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.contact-us .top {
+  background-image: url(../images/contact-us-backround1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-us .free-trail .sub {
-    font-size: 1em;
-    text-transform: uppercase;
-    margin-bottom: 2vh;
-    font-weight: 900;
+.contact-us .top .sub {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 2vh;
+  font-weight: 900;
 }
 
-.contact-us .free-trail .main {
-    padding: 0 15vw 0 15vw;
-    text-align: center;
-    font-size: 2em;
-    text-transform: capitalize;
-    font-weight: 900;
-    margin-bottom: 2vh;
-    width: 110%;
+.contact-us .top .main {
+  padding: 0 15vw 0 15vw;
+  text-align: center;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-bottom: 2vh;
+  width: 110%;
 }
 
-.contact-us .free-trail .contact-button {
-    padding: 13px 25px;
-    background: orange;
-    text-decoration: none;
-    color: white;
-    text-transform: capitalize;
-    font-weight: 900;
-    border-radius: 3px;
+.contact-us .top .contact-button {
+  padding: 13px 25px;
+  background: orange;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 900;
+  border-radius: 3px;
 }
 
-.contact-us .other {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 3vh;
-    border-bottom: 1px gray solid;
+.contact-us .bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 6vw;
 }
 
-.contact-us .other .logo {
-    font-weight: 900;
-    color: orange;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-right: 1px solid rgb(179, 179, 179);
+@media screen and (max-width: 750px) {
+  .contact-us .bottom {
+      flex-direction: column;
+  }
 }
 
-.contact-us .other .info {
-    padding-left: 15px;
+.contact-us .bottom .description {
+  padding: 2vw;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.contact-us .links {
-    display: inline-block;
+.contact-us .bottom .description .logo {
+  font-weight: 900;
+  color: orange;
+  margin-right: 1vw;
+  padding-right: 1vw;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+
+.contact-us .bottom .description .info {
+  padding-left: 0.5vw;
+  width: 80%;
+}
+
+.contact-us .bottom .details {
+  padding: 3vw;
+}
+
+.contact-us .bottom .details .call {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-us .bottom .details .call img {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.contact-us .bottom .details .call .request {
+  color: rgb(108, 117, 125);
+  margin-bottom: 5px;
+}
+
+.contact-us .bottom .details .call .detail {
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.contact-us .bottom .details .subscribe {
+  margin: 20px;
+}
+
+.contact-us .bottom .details .subscribe .wrapper {
+  margin-top: 30px;
+  border: 1px silver solid;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: unset;
+  font-size: 12px;
+}
+.contact-us .bottom .details .subscribe button {
+  color: white;
+  background: orange;
+  padding: 10px;
+}
+
+.contact-us .bottom .details .subscribe .wrapper input {
+  padding: 0 15% 0;
+}
+
+.contact-us .bottom .details .subscribe .wrapper input::placeholder {
+  font-size: 20px;;
+}
+
+.contact-us .bottom .details .subscribe .wrapper span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us .bottom .details .subscribe .wrapper img {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
 }
 
 /* End of latest-articles Section */
