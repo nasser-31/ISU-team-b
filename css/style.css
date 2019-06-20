@@ -204,7 +204,7 @@
 }
 
 .contact-us .bottom .details .subscribe .wrapper input {
-  padding: 0 15% 0;
+  padding: 0 14% 0;
 }
 
 .contact-us .bottom .details .subscribe .wrapper input::placeholder {
@@ -221,6 +221,26 @@
   width: 20px;
   height: 20px;
   margin: 15px;
+}
+
+.contact-us .bottom .details .follow {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-us .bottom .details .follow div {
+  padding: 1vw;
+}
+
+.contact-us .bottom .details .follow div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+.contact-us .bottom .details .follow div img {
+  width: 40px;
+  height: 40px;
 }
 
 /* End of latest-articles Section */
