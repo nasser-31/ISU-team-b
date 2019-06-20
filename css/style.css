@@ -16,10 +16,119 @@
 
 /* ********************************************************************************************** */
 
-/* Styling of the Home Section made by Firas*/
+/* Styling of the Home Section made by Feras*/
+.home .home-start {
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.home .home-start h4 {
+    font-size: 15px;
+    display: inline-block;
+    padding: 7px;
+    color: orange;
+    border: 1px orange solid;
+    border-radius: 3px;
+    margin-bottom: 3vh;
+}
 
+@media screen and (max-width: 750px) {
+    .home .home-start h4 {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
 
+.home .home-start h1 {
+    font-size: 4.5vw;
+    width: 40%;
+    font-weight: 900;
+    color: rgb(75, 75, 75);
+    margin-bottom: 4vh;
+}
+
+@media screen and (max-width: 750px) {
+    .home .home-start h1 {
+        width: 100%;
+
+    }
+}
+
+.home .home-start .main {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 750px) {
+    .home .home-start .main {
+        color: black;
+    }
+}
+
+.home .home-start .main span {
+    color: orange;
+}
+
+.home .home-start .sub {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 6vh;
+    width: 45%;
+}
+
+@media screen and (max-width: 750px) {
+    .home .home-start .sub {
+        width: 100%;
+    }
+}
+
+.home .home-start .get-started {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    display: inline-block;
+    padding: 13px 16px;
+    color: white;
+    background: orange;
+    border: 1px orange solid;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.home .home-start .contact {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    display: inline-block;
+    padding: 13px 16px;
+    color: black;
+    border: 1px rgb(204, 204, 204) solid;
+    border-radius: 3px;
+    margin-bottom: 20vw;
+}
+
+.home .home-companies {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 30px;
+    border: 1px rgb(201, 201, 201) solid;
+    overflow: hidden;
+}
+
+.home .home-companies a img {
+    margin-right: 60px;
+}
+
+.home hr {
+    color: rgb(207, 207, 207);
+}
 /* End of the Home Section*/
 
 /* ********************************************************************************************** */
