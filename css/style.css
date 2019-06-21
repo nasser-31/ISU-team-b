@@ -551,27 +551,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 3wv;
 }
 
-.contact-us .bottom .left .link-columns .links .destination {
+
+.contact-us .bottom .left .link-columns .links {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact-us .bottom .left .link-columns .links .destination img {
+@media screen and (max-width: 750px) {
+  .contact-us .bottom .left .link-columns .links{
+    float: left;
+    flex-wrap: wrap;
+  }
+  
+}
+
+.contact-us .bottom .left .link-columns .links img {
   width: 5px;
   height: 7px;
   margin-right: 5px;
 }
 
-.contact-us .bottom .left .link-columns .links .destination a {
+.contact-us .bottom .left .link-columns .links a {
   text-decoration: none;
   color: black;
-  padding: 7px 17px;
-  text-align: ltr;
+}
+
+.contact-us .bottom .left .link-columns .links ul {
+  list-style: none;
 }
 
 .contact-us .bottom .details {
