@@ -545,28 +545,25 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 2vw;
+  width: 100%;
 }
 
 .contact-us .bottom .left .link-columns .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3wv;
-}
-
-
-.contact-us .bottom .left .link-columns .links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1vw;
 }
 
 @media screen and (max-width: 750px) {
-  .contact-us .bottom .left .link-columns .links{
-    float: left;
+  .contact-us .bottom .left .link-columns{
     flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
   }
-  
+  .contact-us .bottom .left .link-columns .links {
+    padding: 4wv;
+  }
 }
 
 .contact-us .bottom .left .link-columns .links img {
