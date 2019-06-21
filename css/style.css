@@ -816,33 +816,40 @@ div.completed-pro-description {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2vw;
+  width: 100%;
 }
 
 .contact-us .bottom .left .link-columns .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding: 3wv;
+  padding: 1vw;
 }
 
-.contact-us .bottom .left .link-columns .links .destination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 750px) {
+  .contact-us .bottom .left .link-columns{
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .contact-us .bottom .left .link-columns .links {
+    padding: 4wv;
+  }
 }
 
-.contact-us .bottom .left .link-columns .links .destination img {
+.contact-us .bottom .left .link-columns .links img {
   width: 5px;
   height: 7px;
   margin-right: 5px;
 }
 
-.contact-us .bottom .left .link-columns .links .destination a {
+.contact-us .bottom .left .link-columns .links a {
   text-decoration: none;
   color: black;
-  padding: 7px 17px;
-  text-align: ltr;
+}
+
+.contact-us .bottom .left .link-columns .links ul {
+  list-style: none;
 }
 
 .contact-us .bottom .details {
