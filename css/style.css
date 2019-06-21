@@ -384,11 +384,218 @@
 
 
 
+.careers {
+    background-image: url("../images/img11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.careers .container{
+    width: 300px;
+    width: 25%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    bottom:-250px;
+    text-align:left;
+    height: 80px;
+    margin-left: 4.1%;
+    margin-right: 4.1%;
+    
+}
+
+.careers .careers-icon {
+    font-size: 70px;
+    position: relative;
+    bottom:-250px;
+    left:220px;
+    color: #fe9602;
+    display: inline-block;
+    float: left;
+    margin-left: 4.1%;
+    margin-right: 4.1%;
+   
+    
+}
+.careers i {
+    background-color: white;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.careers .careers-form {
+
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top:200px;
+    background-color: white;
+    padding: 10px;
+    width: 220px;
+    height: 335px;
+    float:left;
+    margin-left: 4.1%;
+    margin-right: 4.1%;
+}
+
+
+.careers .container h3 span {
+    border: 1px solid  #fe9602;
+    color: #fe9602;
+    padding: 5px;
+
+}
+
+.careers .container h1 {
+    padding-top:20px;
+    padding-bottom: 40px;
+} 
+
+
+    input[type=submit] {
+    width: 100%;
+    background-color: rgb(245, 177, 88);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+}
+
+@media only screen and (max-width:600px) {
+.careers .container{
+    width: 100%;
+    display: block;
+    float: none;
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    top:0;
+}
+
+.careers .careers-form{
+    width: 100%;
+    display: block;
+    float: none;
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    top:0;
+}
+
+.careers .careers-icon{
+    width: 100%;
+    display: block;
+    float: none;
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    top:0;
+}
+}
+
+
+
+
+
 /* End of Careers Section */
 
 /* ********************************************************************************************** */
 /* Styling of completed-projects Section made by Halil  */
 
+.completed-projects h3 {
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+div.completed-pro-photos {
+    border:1px solid white;
+}
+
+div.comp-pro-all-photo {
+    margin:0 auto;
+    width:80%;
+}
+
+div.completed-photos:hover {
+    border: 2px solid rgb(63, 27, 34);
+    box-shadow: 0 1px 30px rgb(134, 154, 182)
+}
+
+div.completed-pro-photos img {
+    width:100%;
+    height: auto;
+}
+
+div.completed-pro-description {
+    padding: 20px;
+    text-align: left;
+}
+
+.completed-projects {
+    box-sizing: border-box;
+    background: url("../images/img12.jpg");
+    padding-top: 40px;
+    padding-bottom:40px;
+    min-height: 1000px;
+}
+
+.completed-pro-responsive {
+    width:32%;
+    margin: 0.66%;
+    float: left;
+}
+
+.completed-projects h3 span {
+    border:1px solid #fe9602;
+    color:#fe9602;
+    padding: 15px;
+    
+}
+.completed-projects h3 {
+    text-align: center;
+}
+
+.completed-pro-photos span {  
+    color:gray;   
+}
+
+
+.completed-projects h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+@media only screen and (max-width:600px){
+    .completed-pro-responsive {
+        width:100%;
+        margin: 1.66%;
+        display: block;
+    }
+
+    .completed-projects h3 span {
+       font-size: 12px;        
+    }
+}
 
 
 /* End of completed-projects Section */
@@ -396,7 +603,6 @@
 /* ********************************************************************************************** */
 
 /* Styling of completed-projects Section made by Halil  */
-
 
 
 /* End of completed-projects Section */
