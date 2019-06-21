@@ -145,6 +145,8 @@
     display: inline-block;
     margin-top: 5%;
     background-image: url("../images/priceTable.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -159,10 +161,12 @@
 
 .pricing-info h4 {
     border: #fe9602 solid 1px;
+    border-radius: 2px;
     color: #fe9602;
     display: inline-block;
     margin: 15px;
     padding: 10px 10px;
+    
 }
 .pricing-info h2  {
     display: inline-block;
@@ -239,6 +243,18 @@
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
+  @media only screen and (max-width: 800px) {
+    .pricing-info {
+      width: 60%;
+      display: block;
+      float: none;
+      margin: 0 auto;
+    }
+  }
+
+  .pricing-table {
+    width: 100%;
+  }
   * {
     box-sizing: border-box;
   }
@@ -246,7 +262,7 @@
     float: right;
     width: 20%;
     height: 20%;
-    border: #444444 solid 1px;
+    border: #444444 solid 2px;
     background: white;
     
   }
@@ -302,17 +318,19 @@
     
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .pricing-box1 {
-      width: 100%;
+      width: 60%;
+      margin: 0 auto;
+      display: block;
+      float: none;
     }
   }
 
 .pricing-box2 {
     float: right;
     width: 20%;
-    height: 20%;
-    border: #444444 solid 1px;
+    border: #444444 solid 2px;
     background: white;
     margin-right: 10%;
     margin-top: 18px;
@@ -368,9 +386,15 @@
     font-size: 15px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .pricing-box2 {
-      width: 100%;
+      width: 60%;
+      margin: 0 auto;
+      display: block;
+      float: none; 
+      margin-bottom: 15px;
+      
+    
     }
   }
 
@@ -618,13 +642,33 @@ div.completed-pro-description {
     margin-right: 10%;
 
 }
+@media only screen and (max-width: 800px) {
+  .services {
+   
+    margin: 0 auto;
+    
+    display: block;
+    
+  }
+}
+
 .planning {
     display: inline-block;
     width: 25%;
     margin-left: 15%;
-    
-    
 }
+    @media only screen and (max-width: 800px) {
+      .planning {
+       
+        margin: 0 auto;
+        width: 60%;
+        display: block;
+        float: none;
+      }
+    }
+     
+    
+
 .planning img{
     width: 70px;
     height: 70px;
@@ -637,6 +681,16 @@ div.completed-pro-description {
     
     
 }
+@media only screen and (max-width: 800px) {
+  .optimizing {
+   
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+    float: none;
+  }
+}
+
 .optimizing img{
     width: 70px;
     height: 70px;
@@ -647,6 +701,17 @@ div.completed-pro-description {
     display: inline-block;
     width: 25%;
 }
+
+@media only screen and (max-width: 800px) {
+  .result {
+   
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+    float: none;
+  }
+}
+
 .result img{
     width: 70px;
     height: 70px;
