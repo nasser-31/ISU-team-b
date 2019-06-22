@@ -47,6 +47,8 @@
   .header .home {
       max-width: 65%;
   }
+.header .nav-link {
+  background: #fff;
 }
 /* Start styling the upperbar  */
 .upper-bar{
@@ -256,29 +258,41 @@ section .h1{
   section .h1{
       font-size: 1.2rem;
   }
-  .services p.headline{
+  .services-n p.headline{
       font-size: 0.8rem;
   }
 }
-.services p.headline{
+.services-n p.headline{
   line-height: 2em;
   color: #7d7d7d;
 }
-.services .card-title{
+.services-n .card-title{
   font-weight: bolder;
   font-size: 14px;
   
 }
-.services .card-text{
+.services-n .card-text{
   color: #999;
   font-size: 12px;
   line-height: 2em;
  
   
 }
-.services img{
+.services-n img{
   max-width: 100%;
+  height: 90%;
 }
+
+h6 span{
+  
+  border: 1px solid #FE9A04;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+span {
+  color: #FE9A04;
+}
+
 /*End of what-to-do Section */
 
 /* ********************************************************************************************** */
@@ -877,7 +891,87 @@ div.completed-pro-description {
 /* Styling of latest-articles Section made by Halil */
 
 
+.testimonials .carousel {
+	z-index: 3;
 
+}
+
+.testimonials .carousel-item img {
+	max-width: 150px;
+}
+
+.testimonials .carousel-caption {
+	position: relative;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	padding-top: 0;
+	font-size: 18px;
+
+}
+
+.testimonials .carousel-caption p {
+	margin: 20px auto 20px;
+	width: 50%;
+	font-style: italic;
+	line-height: 2;
+}
+
+.testimonials .carousel-control-prev,
+.testimonials .carousel-control-next {
+	z-index: 4;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	border: none;
+	background-image: none;
+	font-weight: bold;
+}
+
+.carousel-control-next-icon {
+	font-size: 50px;
+	color: #999;
+}
+
+.carousel-control-prev-icon {
+	font-size: 50px;
+	color: #999;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+	color: #f7600e;
+
+}
+.testimonials .card{
+  width: 30%;
+}
+.testimonials .card-title{
+  font-weight: bolder;
+margin-bottom:0;
+margin-top: 10px;
+}
+.testimonials .card-subtitle{
+  margin-top: 0;
+  color: #7d7d7d;
+}
+.testimonials .slider > div {
+  display: none;
+}
+.testimonials .slider > div.active{
+  display: block;
+}
+.testimonials .carousel-caption{
+  color: black;
+}
+.testimonials .carousel-caption p{
+  color: black;
+}
 /* End of latest-articles Section */
 
 /* ********************************************************************************************** */
@@ -886,8 +980,8 @@ div.completed-pro-description {
   background-image: url(../images/contact-us-backround1.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding-top: 30vh;
-  padding-bottom: 30vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
