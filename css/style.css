@@ -1158,7 +1158,7 @@ margin-top: 10px;
   border-left: 1px solid rgb(192, 192, 192);
 }
 
-button, input, optgroup, select, textarea {
+form.subscribe button,form.subscribe input,form.subscribe optgroup,form.subscribe select, textarea {
   margin: 0;
   font-family: inherit;
   line-height: inherit;
@@ -1181,6 +1181,7 @@ button, input, optgroup, select, textarea {
 .contact-us .bottom .details .follow {
   display: flex;
   justify-content: flex-start;
+  margin-left: 2%;
 }
 
 .contact-us .bottom .details .follow div {
@@ -1215,6 +1216,16 @@ button, input, optgroup, select, textarea {
   color: #333;
 }
 
+@media only screen and (max-width: 750px) {
+  .hide {
+    visibility: hidden;
+  }
+  .footer .mr-auto {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+  }
+}
 
 /* End of Footer Section */
 
