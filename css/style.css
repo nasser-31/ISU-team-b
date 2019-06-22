@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 
 
 /* Styling of the Navbar made by Sule  */
@@ -1173,7 +1176,18 @@ margin-top: 10px;
 /* ********************************************************************************************** */
 
 /* Styling of Footer Section made by Sule */
+.footer{
+  font-size: 1.2rem;
+}
 
+.footer a{
+  text-decoration: none;
+  color: #7d7d7d;
+}
+.footer a:hover{
+  text-decoration: none;
+  color: #333;
+}
 
 
 /* End of Footer Section */
