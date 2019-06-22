@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-icons.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Team-b project</title>
@@ -18,16 +19,146 @@
 
 <body>
     <!-- Start of the Navbar made by Sule  -->
+    <header class="header">
+        <div class="container">
+            <div class="upper-bar navbar navbar-expand mr-auto px-0 px-sm-3">
+                <div class="links mx-auto mx-md-0">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item "><a class="nav-link pl-0" href="#">Home</a></li>
+                        <li class="nav-item ml-0 ml-sm-2 ml-md-3"><a class=" pl-0 nav-link" href="#">FAqs</a></li>
+                        <li class="nav-item ml-0 ml-sm-2 ml-md-3"><a class="nav-link" href="#">contact</a></li>
+                        <li class="nav-item ml-0 ml-sm-2 ml-md-3 dropdown align-self-center">
+                            <a class="new-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="ml-0 mr-1 ml-md-3 mr-md-2" src="images/eng.png" alt="english-language"> Eng
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/fre.png"> Fr
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/ara.png"> ara
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/tha.png"> tha
+                                </a>
+                            </div>
+                        </li>
 
+                    </ul>
+                </div> <!-- .upper-bar -->
+                <!-- social media icons  -->
+                <div class="social ml-auto d-none d-md-flex">
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
 
-    <!-- End of the Navbar -->
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <a class="mr-4" href="#">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div> <!--  .social -->
+            </div>
+
+            <!-- Start of the navbar  -->
+            <nav class="navbar navbar-expand-lg py-0 py-lg-3 main-navbar navbar-light flex-row-reverse flex-lg-row">
+                <p class="nav-item d-inline-block d-lg-none mt-2">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </p>
+                <a class="navbar-brand mx-auto mr-md-auto" href="#">ISU</a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                What We Do
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item d-none d-lg-inline-block">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 d-none d-lg-inline-block">
+
+                        <button class="ml-4 btn my-2 my-sm-0" type="submit">Get Started</button>
+                    </form>
+
+                </div>
+
+            </nav>
+            <!-- End of the Navbar  -->
+
+    </header>
+
+    <!-- End of the header -->
 
     <!-- ********************************************************************************************** -->
 
 
     <!-- Start of the Home Section made by Firas-->
 
-
+    <section class="home mt-0">
+        <div class="home-start">
+            <div class="container">
+                <h4>SEO Ready</h4>
+                <h1>Improve your SEO with Data.</h1>
+                <p class="main">- Boost your own <span>Beautiful</span> Website.</p>
+                <p class="sub">Lorem ipsum dolor sit amet, consectetur adipicing elit. Quia vitae mollitia dignissinos
+                    ab
+                    qui aspernatur.</p>
+                <a class="get-started" href="#">Get Started</a>
+                <a class="contact" href="#">Contact Us</a>
+            </div>
+            <div class="home-companies">
+                <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img src="images/nat-geo.svg" alt="nat-geo"></a>
+                <a href="#"><img src="images/jetblue.svg" alt="jetblue"></a>
+                <a href="#"><img src="images/zillow.svg" alt="zillow"></a>
+                <a href="#"><img src="images/amazon.svg" alt="amazon"></a>
+                <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+            </div>
+        </div>
+    </section>
 
     <!-- End of the Home Section-->
 
@@ -36,13 +167,154 @@
 
     <!-- Start of what-to-do Section made by Nasser  -->
 
+    <section class="services-n text-center">
+        <div class="container">
+            <h6 class="mt-5 mb-3"><span>services</span></h6>
+            <h2 class="h1">What We Do</h2>
+            <p class="w-30 mx-auto headline">
+                Dynamically Provide access to resource-leveling mindshare vis-a-vis bricks-and-clicks ideas
+                authoritatively.
+            </p>
+        </div>
+        <div class="container  row mt-5 mx-auto ">
+            <div class="col-12 col-md-6 col-lg-4 text-right mb-5 mt-2">
+                <div class="row">
+                    <div class="card-body text-right pr-0 col-9 mb-2">
+                        <h5 class="card-title ">SEO optimization</h5>
+                        <p class="card-text float-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
 
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4">
+                        <img src="images/services-rocket.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+                <div class="row">
+                    <div class="card-body text-right pr-0 col-9 mb-2">
+                        <h5 class="card-title ">Adwords Campaign</h5>
+                        <p class="card-text float-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
+
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4">
+                        <img src="images/services-awords.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+                <div class="row">
+                    <div class="card-body text-right pr-0 col-9 mb-2">
+                        <h5 class="card-title ">Digital Analysis</h5>
+                        <p class="card-text float-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
+
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4">
+                        <img src="images/services-digital-analysis.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+
+            </div> <!-- .col -4  -->
+
+            <!-- Start The second column of the services sections -->
+            <div class="col-md-3 h-70 text-right mb-5 mx-auto col-12 d-md-none d-lg-flex">
+                <img src="images/services-mobile.png" />
+            </div>
+            <!-- End the second of the services sections-->
+
+            <!-- Start the third column -->
+
+            <div class="col-12 col-md-6 col-lg-4 text-right mb-5 mt-2">
+                <div class="row flex-row-reverse ">
+                    <div class="card-body text-left pl-0 col-9 mb-2">
+                        <h5 class="card-title ">Social Media Marketing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
+
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4">
+                        <img src="images/services-social-media-marketing.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+                <div class="row flex-row-reverse">
+                    <div class="card-body text-left pr-0 col-9 mb-2">
+                        <h5 class="card-title ">Customer Experience</h5>
+                        <p class="card-text float-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
+
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4 mb-2">
+                        <img src="images/Services-customer-ex.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+                <div class="row flex-row-reverse">
+                    <div class="card-body text-left pr-0 col-9">
+                        <h5 class="card-title ">Content Marketing</h5>
+                        <p class="card-text float-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia modi dolor .</p>
+
+                    </div> <!-- .card-body -->
+                    <div class="card-image col-3 mt-4">
+                        <img src="images/services-content-marketing.svg">
+                    </div> <!-- .card-image -->
+                </div> <!-- .row for the card -->
+
+            </div> <!-- .col -4  -->
+            <!-- End of the third column  -->
+        </div> <!-- .container .row for the whole section-->
+    </section>
     <!--End of what-to-do Section -->
 
     <!-- ********************************************************************************************** -->
 
     <!-- Start of pricing-table Section made by Taha -->
+    <section class="pricing-table">
 
+        <div class="pricing-info">
+            <h4>Pricing Table</h4>
+            <h2>No Hidden Charges.<br>Choose Your <span class="highlightme">Best</span> Plan</h2>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Decerunt dolore voluptatem
+                assumenda quae possimus sunt dignissimos tempora officia.</p>
+            <h3><strong> Monthly</strong>
+                <label class="switch tab">
+                    <input type="checkbox">
+                    <span class="slider"></span></label>
+                <span class="tab">Yearly</span>
+                <span class="arrow"> &#10552; save 20%</span>
+            </h3>
+
+        </div>
+        <div class="pricing-box2">
+            <ul class="price2">
+                <li class="header2"><img src="./images/img10.svg" alt="####"><br><strong>Multiple User Plan</strong>
+                </li>
+                <li><small><sup>$</sup></small><strong class="font-size">12</strong><br><small class="per-small">Per
+                        month</small></li>
+                <li><i class="fas fa-check-circle"></i><strong>24*7</strong>Support</li>
+                <li><i class="fas fa-check-circle"></i><strong>10</strong> Free Optimization</li>
+                <li><i class="fas fa-check-circle"></i><strong>1000+</strong> Pages</li>
+                <li><i class="fas fa-check-circle"></i><strong>Unlimited</strong>User License</li>
+                <li><i class="fas fa-check-circle"></i>Phone & Email Support</li>
+                <li class="position"><a href="#" class="button">Get Started</a></li>
+            </ul>
+        </div>
+
+        <div class="pricing-box1">
+            <ul class="price1">
+                <li class="header1"><img src="./images/img9.svg" alt="###"><br><strong>Single User Plan </strong> <br>
+                    <font size="1">Most popular</font>
+                </li>
+                <li><small><sup>$</sup></small><strong class="font-size">5</strong><br><small class="per-small">Per
+                        month</small></li>
+                <li><i class="fas fa-check-circle"></i><strong>Limited </strong>support</li>
+                <li><i class="fa fa-minus-circle" aria-hidden="true"></i><del>1 Free Optimization</del></li>
+                <li><i class="fas fa-check-circle"></i><strong>100+</strong>Pages</li>
+                <li><i class="fas fa-check-circle"></i><strong>Single</strong>User Lisence</li>
+                <li><i class="fas fa-check-circle"></i>Phone & Email Support</li>
+                <li class="position"><a href="#" class="button">Get Started</a></li>
+            </ul>
+        </div>
+
+
+    </section>
 
 
     <!-- End of pricing-table Section -->
@@ -53,20 +325,21 @@
     <!-- Start of careers Section made by Halil  -->
 
     <section class="careers">
-    <div>
+        <div>
 
 
 
-        <div class="container">
-            <h3><span>Careers</span></h3>
-            <h1>Get your free Quote today</h1>
-            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Deserunt dolore voluptatem assumenda quae ppossimus sunt dignissimos tempora afficia.</p>
-        </div>
+            <div class="container">
+                <h3><span>Careers</span></h3>
+                <h1>Get your free Quote today</h1>
+                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Deserunt dolore voluptatem assumenda quae
+                    ppossimus sunt dignissimos tempora afficia.</p>
+            </div>
 
-        
-       
 
-        <div class="careers-form">
+
+
+            <div class="careers-form">
                 <form action="#">
                     Apply Now <br>
                     <br>
@@ -78,17 +351,17 @@
 
                     <label for="website">WEBSITE:*</label>
                     <input type="text" id="careers-website" name="website">
-                        <div>
-                    <input type="submit" id="careers-submit" value="Apply now">
-                        </div>
-                </form>               
-        </div>
+                    <div>
+                        <input type="submit" id="careers-submit" value="Apply now">
+                    </div>
+                </form>
+            </div>
 
-        <div class=careers-icon>
-             <i class="fas fa-play-circle"></i>
+            <div class=careers-icon>
+                <i class="fas fa-play-circle"></i>
+            </div>
+
         </div>
-        
-    </div>
     </section>
 
 
@@ -100,13 +373,13 @@
     <br>
     <br>
     <section class="completed-projects">
-    <h3><span>Completed Projects</span></h3>
-    <h1>Our Latest Works</h1>
+        <h3><span>Completed Projects</span></h3>
+        <h1>Our Latest Works</h1>
         <div class="comp-pro-all-photo">
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img13.jpg" alt="">
-                    <div class="completed-pro-description">The Atmosphere<br><span>Digital Marketing</span></div> 
+                    <div class="completed-pro-description">The Atmosphere<br><span>Digital Marketing</span></div>
                 </div>
 
             </div>
@@ -114,39 +387,39 @@
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img14.jpg" alt="">
-                    <div class="completed-pro-description">Wavelength Structure<br><span>SEO</span></div> 
+                    <div class="completed-pro-description">Wavelength Structure<br><span>SEO</span></div>
                 </div>
             </div>
 
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img15.jpg" alt="">
-                    <div class="completed-pro-description">Simplicity Pages<br><span>Analytics</span></div> 
+                    <div class="completed-pro-description">Simplicity Pages<br><span>Analytics</span></div>
                 </div>
             </div>
 
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img16.jpg" alt="">
-                    <div class="completed-pro-description">SEO Analysis<br><span>SEO</span></div> 
+                    <div class="completed-pro-description">SEO Analysis<br><span>SEO</span></div>
                 </div>
             </div>
 
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img17.jpg" alt="">
-                    <div class="completed-pro-description">Marketing Strategy<br><span>Digital Marketing</span></div> 
+                    <div class="completed-pro-description">Marketing Strategy<br><span>Digital Marketing</span></div>
                 </div>
             </div>
 
             <div class="completed-pro-responsive">
                 <div class="completed-pro-photos">
                     <img src="images\img18.jpg" alt="">
-                    <div class="completed-pro-description">Space Station<br><span>Social Media</span></div> 
+                    <div class="completed-pro-description">Space Station<br><span>Social Media</span></div>
                 </div>
             </div>
         </div>
-        
+
     </section>
 
 
@@ -163,7 +436,24 @@
     <!-- ********************************************************************************************** -->
 
     <!-- Start of services Section made by Taha -->
+    <section class="services">
 
+        <div class="planning">
+            <img src="./images/img19.svg">
+            <h2>1.Planning & Research</h2><br>
+            <p>lorem ipsum dolor sit amet,consectetur adipising elit. lllum dolore,voluptates!</p>
+        </div>
+        <div class="optimizing">
+            <img src="./images/img20.svg">
+            <h2>2. Optimizing </h2><br>
+            <p>lorem ipsum dolor sit amet, consectetur adipising elit. Aliguam,provident.</p>
+        </div>
+        <div class="result">
+            <img src="./images/img21.svg">
+            <h2>3. Result</h2><br>
+            <p>lorem ipsum dolor sit amet, consectetur adipising elit. commodi,ipsa!</p>
+        </div>
+    </section>
 
 
     <!-- End of services Section -->
@@ -172,7 +462,55 @@
 
     <!-- Start of testimonials Section made by Nasser -->
 
+    <section class="testimonials">
+        <div class="container text-center">
+            <h6><span>Testimonials</span></h6>
+            <h2 class="h1">What clients Say</h2>
 
+            <!--	                 Start Testimonials           -->
+
+            <div id="first-carousel" class="carousel slide my-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="rounded-circle" src="images/img23.jpg">
+                        <div class="carousel-caption">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maiores magnam aliquid
+                                facere itaque impedit similique ad.</p>
+                            <h5 class="card-title">&ndash; Colis TA'Ed</h5>
+                            <h6 class="card-subtitle">Envato Inc</h6>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle" src="images/img23.jpg">
+                        <div class="carousel-caption">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maiores magnam aliquid
+                                facere itaque impedit similique ad.</p>
+                            <h5 class="card-title">&ndash; Colis TA'Ed</h5>
+                            <h6 class="card-subtitle">Envato Inc</h6>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle" src="images/img23.jpg">
+                        <div class="carousel-caption">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maiores magnam aliquid
+                                facere itaque impedit similique ad.</p>
+                            <h5 class="card-title">&ndash; Colis TA'Ed</h5>
+                            <h6 class="card-subtitle">Envato Inc</h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+            <!--	                 End Testimonials           -->
+
+        </div>
+
+
+    </section>
 
     <!-- End of testimonials Section -->
 
@@ -186,7 +524,162 @@
     <!-- ********************************************************************************************** -->
     <!-- Start of Contact Section made by Feras -->
 
-
+    <section class="contact-us">
+        <div class="top">
+            <p class="sub">grab your free trail and explore the options</p>
+            <p class="main">try keyword search 30 days free with <span>ISU</span></p>
+            <a class="contact-button" href="#">contact us now</a>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="description">
+                    <p class="logo">ISU</p>
+                    <p class="info">We believe in <b>Simple</b>, <b>Creative</b> & <b>Flexible</b> design standards with
+                        a Retina & Responsive Approach. Browse the amazing Features this template offers.</p>
+                </div>
+                <div class="link-columns">
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Shop</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Events</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Forums</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Corprate</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Agency</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">eCommence</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Personal</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">One Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Restaurant</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Wedding</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">App Showcase</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Magazine</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Landing page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="call">
+                    <img src="images/phone.svg">
+                    <div class="wrapper">
+                        <p class="request">Call us:</p>
+                        <p class="detail">(10) 22 33445566</p>
+                    </div>
+                </div>
+                <div class="call">
+                    <img src="images/envolope.svg">
+                    <div class="wrapper">
+                        <p class="request">Email Us:</p>
+                        <p class="detail">info@ISU.com</p>
+                    </div>
+                </div>
+                <form class="subscribe">
+                    <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                    <div class="wrapper">
+                        <span>
+                            <img src="images/plane.svg">
+                        </span>
+                        <input type="email" placeholder="Enter your Email" required>
+                        <button>Subscribe</button>
+                    </div>
+                </form>
+                <div class="follow">
+                    <div>
+                        <a href="#"><img src="images/facebook.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="#">Like us</a>
+                        <p>on Facebook</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="images/rss.png"></a>
+                    </div>
+                    <div>
+                        <a href="#">Subscribe</a>
+                        <p>to RSS Feeds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- End of latest-articles Section -->
 
@@ -194,13 +687,48 @@
 
     <!-- Start of Footer Section made by Sule -->
 
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex">
+                <div class="mr-auto">
+                    <p>Copyrights &copy; 2019 All Rights Reserved by ISU</p>
+                </div>
+                <div class="ml-auto">
+                    <ul class="list-unstyled d-flex ">
+                        <li ><a href="#">Home </a></li>
+                        <li class="pl-1"> / <a href="#"> About Us </a></li>
+                        <li class="pl-1"> / <a href="#"> Team </a></li>
+                        <li class="pl-1"> / <a href="#"> Clients </a>  </li>
+                        <li class="pl-1"> / <a href="#"> FAQs </a>  </li>
+                        <li class="pl-1"> / <a href="#"> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mr-auto">
+                    <ul  class="list-unstyled d-flex pt-0 ml-0 pl-0">
+                        <li ><a href="#">Terms of Use </a></li>
+                        <li class="pl-3"> / <a href="#"> Privacy Policy </a></li>
+                    </ul>
+                </div>
+        </div>
 
+    </footer>
 
     <!-- End of Footer Section -->
 
     <!-- ********************************************************************************************** -->
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
