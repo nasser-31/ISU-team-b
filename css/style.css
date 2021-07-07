@@ -595,7 +595,8 @@ span {
     display: inline-block;
     float: left;
     position: relative;
-    bottom:-250px;
+    left:120px;
+    top:200px;
     text-align:left;
     height: 80px;
     margin-left: 4.1%;
@@ -630,11 +631,11 @@ span {
     display: inline-block;
     position: relative;
     left: 100px;
-    top:200px;
+    top:130px;
     background-color: white;
     padding: 10px;
     width: 220px;
-    height: 335px;
+    height: 400px;
     float:left;
     margin-left: 4.1%;
     margin-right: 4.1%;
@@ -732,14 +733,15 @@ div.comp-pro-all-photo {
     width:80%;
 }
 
-div.completed-photos:hover {
-    border: 2px solid rgb(63, 27, 34);
-    box-shadow: 0 1px 30px rgb(134, 154, 182)
+div.completed-pro-photos:hover {
+    border: 1px solid rgb(33, 87, 131);
+    box-shadow: 1px 2px 3px rgb(122, 134, 139)
 }
 
 div.completed-pro-photos img {
     width:100%;
     height: auto;
+    
 }
 
 div.completed-pro-description {
@@ -780,6 +782,7 @@ div.completed-pro-description {
     text-align: center;
     font-style: italic;
     font-size: 40px;
+    padding: 22px;
 }
 
 @media only screen and (max-width:600px){
